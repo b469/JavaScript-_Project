@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!--Coercion Oparator JS File-->
+    <script src="JS folder/main.js"></script>
+    <script src="JS folder/Example.js"></script>
+    
+    <!--Change color H3-->
+    <style>
+     h3 {color: brown; height: 20px};
+   </style>
+   
+    <title>Coercion Operator</title>
+  
+</head>
+  
+<body>
+    <h2>Type Coercion</h2>
+
+    <!--Using two different data types "string" and "number" within
+     an opetation would return an error ;(it would tack "5 onto the string "10)-->
+    <h3>Using (String and Number)will be an error</h3>
+    <script>
+        document.write("10"+5);
+        document.write("<br>")
+    </script>
+    
+   
+    <!--The (NaN)"Not a negative infinity" Operation using JS main-->
+    <h3>NaN "Negative 0/0 can't be done</h3>
+    <p Id="Test" onclick="my_Function()">Click Here</p>
+    <br>
+
+    <!--The (NaN) "Positive infinity"-->
+    <h3>NaN "True </h3>
+    <p Id="Positive" onclick="my_Tru()">Try Here</p>
+    <br>
+    
+     <!--The result woukd be NaN because you
+     can't divede 0 by 0-->
+     <h3>NaN "Not a Number"</h3>
+     <P Id="None" onclick="my_NaN()">Text Me!</P>
+     <br>
+    
+      <!--To display" Possitive infinity" (higher than our maximum floating 
+      point number)-->
+      <h3>To display Possitive infinity</h3>
+      <script>
+        document.write(2E310)
+        document.write("<br>")
+     </script>
+    <br>
+
+     <!--To display Negative Infinity, we write any
+      negative number that is -1.7000...-->
+      <h3>To display  Negative infinity</h3>
+      <script>
+        document.write (-3e310)
+      </script>
+      <br>
+      <br>
+      <br>
+
+      <!--Boolean Logic True-->
+      <h3>Boolean Logic True</h3>
+      <script>
+        document.write(10>2);
+      </script>
+        <br>
+        <br>
+        <br>
+      
+        <!--Boolean Logic False usin JS main folder -->
+        <h3>Boolen Logic False, using JS file</h3>
+     <p Id="False" onclick="False_number()">Try me!</p>
+     <br>
+     <br>
+     
+      <!--Double Equal Sings-->
+      <h3>Double Equal Sings True, using JS file</h3>
+     <script>
+        document.write(10==10);
+     </script>
+     <br>
+     <br>
+
+     <!--Double Equal Sings using JS main folder-->
+     <h3>Double Equal Sings False, using JS file</h3>
+     <p Id="Double" onclick="Double_sings()">Click Box</p>
+     <br>
+     
+
+     <!--Triple Equal Signs is used to
+     show that a comparison should be made, this code ruturn True-->
+     
+     <h3>Triple Equal Sings</h3>
+     <script>
+      x =10;
+      y =10;
+      document.write(x === y);
+     </script>
+     <br>
+     <br>
+
+     <!--Triple Equal Sings (This return False because number
+      and string respectively ) were not the same-->
+      <h3>Triple Equal Sings "True"</h3>
+      <script>
+      x = 82;
+      y = 82;
+       document.write(x===y);
+      </script>
+    <br>
+     
+    <!--Truple Equal Sings True code-->
+    <h3>Triple Equal Sings True</h3>
+      <script>
+      A = "Magnus";
+      B = "Magnus";
+      document.write (A===B);
+    </script>
+    <br>
+     
+    <!--Boolean Logical Operators using "AND written &&"-->
+    <h3>Boolean Logical Operator using && ,True</h3>
+    <script>
+      document.write(5>2 && 10>4);
+    </script> 
+    <br>
+
+    <!--Boolean Logical Operators using "&&" = AND-->
+    <h3>Boolean Logicl Operator &&, False</h3>
+    <script>
+      document.write(5<3 && 10>4);
+    </script>
+    <br>
+
+    <!--Boolean Logical Operator using "|| = OR"-->
+    <h3>Boolean Logical Operatou "using "||" True </h3>
+     <script>
+      document.write(10>5 || 11>3);
+     </script>
+     <br>
+
+     <!--Boolean Logical Operator Using "||" return False both are False-->
+     <h3>Boolean Logicsl Operator using "||" False</h3>
+     <script>
+      document.write(5>11 || 20>20);
+     </script>
+     <br>
+
+     <!--The Not Operator "!" checkd whether or not something is true-->
+     <h3>The Not Operator "!" false</h3>
+     <p Id="false" onclick="not_function()">Try me!</p>
+     <br>
+     
+     <!--The Not Operator "!" response True-->
+     <h3>The NOt Operator "!" True</h3>
+     <p Id="true" onclick="true_function()">Click Box</p>
+     <br>
+     <br>
+
+ 
+ 
+ 
+  
+</body>
+</html>
