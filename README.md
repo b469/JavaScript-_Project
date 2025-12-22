@@ -8,3 +8,6 @@ Dec- 19 - 2025 , Adding my Project_4 function ,Dictionary
 Dec-20- 2025 , Adding my Project_5_coomparisons_type utilizing the following opertors:==,===,<,>,&&,!, example, and using
 document.write and JS main files
 
+Dec- 21- 2025 , Adding my Project_6_ternary_operator_constructor,
+Add (This and New Keywords) add some "Nest Function code and JavaScript explaining code
+
