@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!--Anchor to Js main file-->
+    <script src="JS file/main.js"></script>
+    <script src="Example.js"></script>
+    
+    <!--Style css  inner HTML-->
+    <style>
+        h3{color: blue; height: 20px;}
+        p{color: brown; height: 20px;} 
+        button{color: green; height: 20px;}
+    </style>
+   
+    <title>Scope Time Function!</title>
+  
+</head>
+   
+<body>
+    <!--IF Statement specifies that a sectionof code is to be excuted if
+     a condetion is true-->
+    <h3>"If" statement Function</h3>
+    <button onclick="get_date()">Click Here</button>
+    <p Id="Greeting"></p>
+    
+     
+    <!--Creating a new date With current date and time-->
+    <p>Create a new date object with the current date and time:</p>
+    <button onclick="get_dia()">Click Here</button>
+    <p Id="dia"></p>
+    <br>
+
+
+    <!--Else Statement  epecifies a block of code that will 
+    be executed if the condition is false (opposite of the If statement) -->
+    <p>Write your age:</p>
+    <input Id="Age" value=""/>
+    <p Id="How_old_are_you?"></p>
+    <button onclick="Age_Function()">Click Here</button>
+     <br>
+     <br>
+
+    <!--My own "If you are old enough to drink using (IF and ElSE)"-->
+    <h3>Are you old enough to drink</h3>
+    <p>Drinking Age</p>
+    <input Id="drink" value=""/>
+    <p Id="Are_You_Old_Enough"></p>
+    <button onclick="Drinking_Function()">Click Here</button>
+    <br>
+    <br>
+     
+
+<!--The "Else if" statement follows an "If" statement-->
+<h3>The "Else If" statement follows an "If" statement</h3>
+<p Id="Time_of_day"></p>
+  <button onclick="Time_function()">Click Here</button>
+  <br>
+  <br>
+  <br>
+
+  <!--Scope code " A gloval Variable"-->
+  <h3>Scope code "A Gloval Variable</h3>
+<script>
+  pablo_age = 10;
+  function Add_number_1(){
+    document.write(20 + pablo_age + "<br>");
+  }
+  function Add_number_2(){
+    document.write( pablo_age + 40);
+  }
+  Add_number_1();
+  Add_number_2();
+</script>
+<br>
+<br>
+
+<!--Scope code "A Local Variable" The code only return "30
+because the variable was local_ meaning it was written within the function-->
+<h3>Scope code "A Local Variable" only will show "30" because the variable was Local</h3>
+<script>
+  function Add_number_1(){
+    pablo_age = 10;
+    document.write(20 + pablo_age + "<br"); 
+  }
+  function Add_number_2(){
+    document.write (pablo_age + 40);
+  }
+  Add_number_1();
+  Add_number_2();
+</script>
+<br>
+<br>
+
+
+
+  </body>
+</html>
