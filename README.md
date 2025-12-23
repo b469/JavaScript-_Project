@@ -11,3 +11,6 @@ document.write and JS main files
 Dec- 21- 2025 , Adding my Project_6_ternary_operator_constructor,
 Add (This and New Keywords) add some "Nest Function code and JavaScript explaining code
 
+Dec- 23 2025 , Adding my project_7_scope_time-function, Assing a local variable and a global variable,
+write a function that includes an "if", else ,else if, write the time_function
+
