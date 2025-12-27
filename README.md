@@ -14,3 +14,6 @@ Add (This and New Keywords) add some "Nest Function code and JavaScript explaini
 Dec- 23 2025 , Adding my project_7_scope_time-function, Assing a local variable and a global variable,
 write a function that includes an "if", else ,else if, write the time_function
 
+Dec- 26-2025 , Adding my Project-8_string_method ( have some JS file, CSS file, concat()method, slece()method, Number()metho, toPrecision()method,
+toUpperCase()method, Search()method, Fixed()method, and Value()method
+
