@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <!--Give some presention font-->
+  
+    
+    <!--anchor js main file-->
+   <script src="JS file/main.js"></script>
+   
+   <link rel="stylesheet" type="text/css" href="CSS file/main.css">
+   
+      <title>Project_8_String Methos</title>
+    
+  
+  </head>
+  
+  <body>
+      <h3>Concat () Method</h3>
+    <p id="Concatenate"></p>
+       <button onclick="full_Sentence()">Click Here</button>
+      <br>
+      <br>
+      
+      <!--slide() Method, Extracts a section of a string and then returns 
+      the extracted section in a niw string-->
+      <h3> Slide()Method</h3>
+      <p id="Slide"></p>
+      <button onclick="slide_Method()">Click Here</button>
+     <br>
+     <br>
+       
+     <!--toUpperCase()Method-->
+       <h3>toUpperCase() Method</h3>
+     <p>toUpperCase() converts a string to uppercase letters:</p></p>
+      
+       <p id="uppercase"></p>
+      <script>
+      let text = "Hello World!";
+      let result = text.toUpperCase();
+        document.getElementById("uppercase").innerHTML = result;
+      </script>
+      <br>
+      <br>
+
+       <!--The search() method is case sensitive.-->
+       <h3>The search() method is case sensitive.</h3>
+         <p id="demo"></p>
+           <script>
+            text = "Mr. Blue has a blue house"
+          let position = text.search(/blue/i);
+
+          document.getElementById("demo").innerHTML = position;
+          </script>
+          <br>
+       
+
+          <!--Number Methods , "toString() method 
+          that returns a number as a string"-->
+          <h3>Number Method</h3>
+          <p Id = "Number_to_string"></p>
+          <button onclick="String_Method()">Try me!</button>
+          <br>
+          <br>
+
+          <!--toPrecision()Method, formats number to a specified length-->
+          <h3>toPrecision()Method</h3> 
+          <p Id = "Precision"></p>
+           <button onclick="precision_Method()">Click Here.</button> <br>
+         <br>
+          <br>
+
+         
+          <h3>toFexed() Method</h3>
+          <p id="demo1"></p>
+
+<p>String fixed() is deprecated in JavaScript.
+Avoid using it.It may cease to work in your browser at any time.</p>
+<p>Use the kbd tag instead:</p>
+
+       <p id="demo2"></p>
+
+<script>
+ text = "Hello World!";
+ result = text.fixed();
+document.getElementById("demo1").innerHTML = result;
+
+text = "<kbd>Hello World!</kbd>"; 
+document.getElementById("demo2").innerHTML = text;
+</script>
+<br>
+<br>
+
+
+<!--The valueOf()Method-->
+<h3>The valueOf()Method</h3>
+ <p Id="cost"></p>
+
+<script>
+    class Product{
+    constructor(name, cost){
+      this.name = name;
+      this.cost = cost;
+    }
+
+  }
+    
+  {
+  const p1 = new Product("samson gm" ,850);
+  const p2 = new Product("Google Pexwl", 760);
+  const Total = p1.cost + p2.cost ;
+  document.getElementById("cost").innerHTML = new Product;
+  }
+</script>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+         
+            
+
+
+
+
+
+</body>
+</html> 
