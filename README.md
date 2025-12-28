@@ -17,3 +17,5 @@ write a function that includes an "if", else ,else if, write the time_function
 Dec- 26-2025 , Adding my Project-8_string_method ( have some JS file, CSS file, concat()method, slece()method, Number()metho, toPrecision()method,
 toUpperCase()method, Search()method, Fixed()method, and Value()method
 
+Dec - 27 - 2025 < Adding my Project_9 (countdown and slide show with my CSS main file and JS main file)
+
