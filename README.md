@@ -19,3 +19,5 @@ toUpperCase()method, Search()method, Fixed()method, and Value()method
 
 Dec - 28 - 2025 < Adding my Project_9 (countdown and slide show with my CSS main file and JS main file)
 
+Dec - 30 - 2025 , Adding my Project_10_loops_arrays // I did call it Project_10_Defer_Challenge ( this project have a : function that utilizes a while loop, a function that utilizes a for loop, a function that utilizes an array, an Object using the "let" keyword and HtML elements calling my JavaScript code)
+
